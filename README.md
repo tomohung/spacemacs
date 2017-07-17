@@ -8,7 +8,9 @@ $ brew install emacs-plus
 $ brew linkapps emacs-plus
 ```
 
-If you prefer to run spacemacs in terminal, install `brew install emacs`.
+Or if you prefer to run spacemacs in terminal like me, just install 
+```brew install emacs```
+
 
 ```
 $ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
@@ -18,8 +20,17 @@ $ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 ```
 $ git clone [repo] to ~
-$ ln -s ./spacemacs/spacemacs ./spacemacs
+$ ln -s ./spacemacs/spacemacs ./.spacemacs
 ```
+
+and install fonts
+
+```
+https://github.com/powerline/fonts
+```
+
+I like `Inconsolata-g`
+Change fonts in Terminal preferences
 
 # Run
 
